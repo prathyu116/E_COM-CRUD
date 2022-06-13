@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container{
+  display: flex;
+  width: 100%;
+
+}
+.left-side{
+  width: 15%;
+  border: 2px solid red;
+  height: 90vh;
+}
+.right-side{
+  width: 40%;
+}
+.extreme{
+  width: 40%;
+
+}
+.eachAddres{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgba(20, 31, 133, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 10px;
+  padding: 20px;
+
+}
+.left-add{
+  display: flex;
+  gap: 10px;
+}
